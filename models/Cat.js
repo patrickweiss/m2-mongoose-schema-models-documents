@@ -16,7 +16,6 @@ const catSchema = new Schema({
       address: String,
       city: String
     },
-    countryCode: { type: String, match: /^[A-Z]{2}$/ },
     created: { 
       type: Date,
       default: Date.now
